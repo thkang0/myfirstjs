@@ -1,0 +1,83 @@
+.js-clock{
+    text-align: center;
+    font-size: 150px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin:-150px 0 0 -150px;
+    color: white;
+
+}
+
+input {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    color: white;
+}
+
+.input{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    margin:-150px 0 0 -150px;
+    color: white;
+}
+
+.todo{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    margin:-150px 0 0 -150px;
+    color: white;
+}
+
+.weather{
+    font-size: xx-large;
+    font-weight: bold;    
+    color: white;
+}
+
+.todo-list{
+    font-size: xx-large;
+    font-weight: bold;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin:-150px 0 0 -150px;
+    color: white;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn .5s linear;
+}
+
+
+.hidden{
+    display: none;
+}
